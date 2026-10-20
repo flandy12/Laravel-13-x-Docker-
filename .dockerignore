@@ -1,0 +1,23 @@
+# Dependency folders (re-installed inside the container)
+node_modules/
+vendor/
+.venv/
+
+# Environment variables and secrets
+.env
+*.pem
+*.key
+
+# Version control
+.git
+.gitignore
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# Build outputs and logs
+dist/
+build/
+*.log
+npm-debug.log*
